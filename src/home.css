@@ -1,0 +1,123 @@
+div.header {
+    position: absolute;
+    width: 100%;
+    height: 97px;
+    left: 0px;
+    top: 0px;
+    background-color :#FFA012;
+    border-bottom: 8px solid #FFD90F;
+    
+}
+div.text {
+    position: absolute ;
+    width: 291px;
+    height: 53px;
+    left: 130px;
+    top: 4px;
+    font-weight: 50px;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+div.text2 {
+    position: absolute;
+    width: 514px;
+    height: 35px;
+    left: 130px;
+    top: 46px;
+    font-weight: lighter ,300px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+div.dropdown {
+    position: absolute;
+    right: 50px;    
+    top: 25px;
+}
+
+img  {
+    
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    left: 24px;
+    top: 0px;
+
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #FFFFFF;
+}
+
+div.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 70px;
+    background-color: #FFA012;
+}
+
+div.FooterText {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.box{
+    width: 667px;
+    height: 206px;
+    border: 1px transparent;
+    margin: 20% auto;
+    position: relative;
+    
+}
+.box1,.box2,.box3 {
+    width: 180px;
+    height: 206px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.19), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box1 {
+    background-color: #FFA012;
+    border-radius: 20px;
+    border: burlywood;
+    position: absolute;
+    left: 0%;
+}
+button.box1:hover{
+    color: #000;
+}
+
+.box2 {
+    background-color: #FFA012;
+    border-radius: 20px;
+    border: burlywood;
+
+    position: absolute;
+    right: 0%;
+}
+button.box2:hover{
+    color: #000;
+}
+
+.box3 {
+    background-color:  #FFA012;
+    border-radius: 20px;
+    border: burlywood;
+
+    position: absolute;
+    right: 242px;
+}
+button.box3:hover{
+    color: #000;
+}
