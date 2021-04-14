@@ -1,0 +1,44 @@
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.banner-bg {
+    height:500px;
+    background-size: cover;
+    overflow: hidden;
+    background: url(wv.svg) no-repeat;
+}
+
+.banner-text {
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+input {
+    width: 95%;
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid #FFA012;
+    background: none;
+    font-size: 18px;
+    color: black;
+}
+
+button {
+    width: max-width;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFA012;
+    border: 1px solid#FFA012;
+    color: white;
+    font-size: 20px;
+    transition: .2s;
+}
+  
+button:hover{
+    border: 1px solid white;
+    color: rgb(0, 0, 0);
+}
+
